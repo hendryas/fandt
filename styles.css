@@ -1,0 +1,101 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	padding: 20px;
+	background: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+.food-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.food-form label {
+	margin: 10px 0 5px;
+}
+
+.food-form input,
+.food-form textarea {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.food-form .error {
+	color: red;
+	display: none;
+	font-size: 0.9em;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+.food-form button {
+	padding: 10px;
+	background: #333;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.food-form button:hover {
+	background: #555;
+}
+
+.food-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.food-table th,
+.food-table td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.food-table th {
+	background: #333;
+	color: white;
+}
+
+.food-table td img {
+	width: 100px;
+	height: auto;
+}
+
+.food-table button {
+	padding: 5px 10px;
+	margin-right: 5px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.food-table .edit-btn {
+	background: #5cb85c;
+	color: white;
+}
+
+.food-table .delete-btn {
+	background: #d9534f;
+	color: white;
+}
